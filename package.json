@@ -1,0 +1,38 @@
+{
+  "name": "@yangin/eslint-config-yangin-react",
+  "version": "1.0.0",
+  "description": "a private eslint config for react",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangin/eslint-config-yangin.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "yangin"
+  ],
+  "author": "yangin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangin/eslint-config-yangin/issues"
+  },
+  "homepage": "https://github.com/yangin/eslint-config-yangin#readme",
+  "dependencies": {
+    "@yangin/eslint-config-yangin-base": "^1.0.0",
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^10",
+    "eslint-plugin-promise": "^4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
+  }
+}
