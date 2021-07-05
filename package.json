@@ -1,6 +1,6 @@
 {
   "name": "@yangin/eslint-config-yangin-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a private eslint config for react",
   "main": ".eslintrc.js",
   "scripts": {
